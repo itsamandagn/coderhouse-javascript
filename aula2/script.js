@@ -1,4 +1,4 @@
-alert("Olá mundo")
+alert("Olá mundo!")
 
 var nome = "Amanda";
 var sobrenome = "Guimaraes";
@@ -10,7 +10,9 @@ var resultadoB= anoAtual - idadeFinal;
 console.log(resultadoA);
 console.log(resultadoB);
 
-let valor1 = 1;
-var valor2 =  4;
-var resultado = valor1 + valor2;
-console.log(resultado);
+var valor1 = prompt("insira um número de 1 a 5");
+var valor2 = prompt("insira um número de 6 a 10");
+valor1 = Number (valor1);
+valor2 = Number (valor2);
+console.log("resultado:" + " " + (valor1 + valor2));
+alert(valor1*valor2);
