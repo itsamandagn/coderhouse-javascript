@@ -12,8 +12,9 @@ function fatorial(numero) {
     while(i<=numero){
         resultado = resultado*i;
         console.log(i)
-        i++
+        ++i
     }
     return resultado;
 }
-fatorial(4);
+let res = fatorial(6);
+console.log(res);
