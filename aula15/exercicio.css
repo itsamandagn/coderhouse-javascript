@@ -1,0 +1,13 @@
+.informacoes {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  gap: 10px;
+}
+
+button {
+  display: inline-block;
+  width: 100px;
+}
